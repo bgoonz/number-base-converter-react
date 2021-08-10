@@ -1,9 +1,9 @@
-import React from 'react';
-import NumberInput from './NumberInput';
+import React from "react";
+import NumberInput from "./NumberInput";
 
 const convertToDecimal = (num, base) => parseInt(num, base);
 const convertFromDecimal = (num, base) => {
-  return isNaN(num) ? '' : num.toString(base);
+  return isNaN(num) ? "" : num.toString(base);
 };
 
 const createRangeReg = (base) => {

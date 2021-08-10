@@ -1,10 +1,10 @@
-import React from 'react';
-import BaseConverter from './BaseConverter';
+import React from "react";
+import BaseConverter from "./BaseConverter";
 
 const App = () => {
   return (
-    <div className='App base-converter'>
-      <div className='title'>Number Base Converter</div>
+    <div className="App base-converter">
+      <div className="title">Number Base Converter</div>
       <div>
         <BaseConverter />
       </div>
