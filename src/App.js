@@ -4,7 +4,7 @@ import BaseConverter from "./BaseConverter";
 const App = () => {
   return (
     <div className="App base-converter">
-      <div className="title">Number Base Converter</div>
+      <div id="title" className={"title"}>Number Base Converter</div>
       <div>
         <BaseConverter />
       </div>

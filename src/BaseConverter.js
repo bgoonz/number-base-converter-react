@@ -3,7 +3,11 @@ import NumberInput from "./NumberInput";
 
 const convertToDecimal = (num, base) => parseInt(num, base);
 const convertFromDecimal = (num, base) => {
-  return isNaN(num) ? "" : num.toString(base);
+  if (isNaN(num)) {
+    return "";
+  } else {
+    return num.toString(base);
+  }
 };
 
 const createRangeReg = (base) => {
@@ -45,7 +49,7 @@ class BaseConverter extends React.Component {
         />
       );
     });
-    return <div>{listOfNumbers}</div>;
+    return <div className="col">{listOfNumbers}</div>;
   }
 }
 

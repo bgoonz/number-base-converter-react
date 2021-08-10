@@ -1,4 +1,4 @@
-# numberBaseConverter
+# Base Converter in ReactJS
 
 convert number from one base system to other
 
