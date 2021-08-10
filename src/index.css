@@ -6,7 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-  monospace;
+    monospace;
 }
 
 code {
@@ -22,7 +22,7 @@ code {
   margin-top: 2vh;
   margin-bottom: 3vh;
 }
-.col{
+.col {
   columns: 100px 3;
 }
 .numberBlock {
@@ -85,7 +85,6 @@ form {
   display: grid;
   place-items: center;
   grid-template-columns: 1fr;
-
 }
 
 .input {
@@ -106,18 +105,24 @@ input {
 
 @keyframes fadeout {
   100% {
-      opacity: 0;
+    opacity: 0;
   }
 }
 
 @media only screen and (min-width: 768px) {
   form {
-      width: 100%;
-      grid-template-columns: 1fr 1fr;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
   }
 }
 body {
-  background: linear-gradient(-45deg, #da0000a8, #0008ffaf, #23d5a2a8, #12129685);
+  background: linear-gradient(
+    -45deg,
+    #da0000a8,
+    #0008ffaf,
+    #23d5a2a8,
+    #12129685
+  );
   background-size: 400% 400%;
   -webkit-animation: gradient 15s ease infinite;
   animation: gradient 15s ease infinite;
